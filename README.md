@@ -9,5 +9,6 @@ A smart medicine box has also been introduced which is connected to an android a
 ![intelligentmedibox](https://user-images.githubusercontent.com/32632834/40327080-78d89b3a-5cf6-11e8-92a3-68fafe2d72c0.jpeg)
 
 #User Interface
-![image](https://user-images.githubusercontent.com/32632834/40327412-9fae370a-5cf7-11e8-924e-70edd5065ffc.png)
+Patient Dashboard
+![image](https://user-images.githubusercontent.com/32632834/40327814-18ef11e2-5cf9-11e8-8985-d239392199f2.png)
 
