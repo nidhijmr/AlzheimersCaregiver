@@ -12,6 +12,7 @@ A smart medicine box has also been introduced which is connected to an android a
 ## User Interface
 ### Patient Dashboard
 ![image](https://user-images.githubusercontent.com/32632834/40328019-be7af39c-5cf9-11e8-92a3-6b69c2291005.png)
+
 ![image](https://user-images.githubusercontent.com/32632834/40328053-e1eb5fc4-5cf9-11e8-8e7e-34cad587c248.png)
 
 ### Caretaker's Dashboard
