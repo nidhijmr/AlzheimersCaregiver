@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.sindhu.alzheimerscaregiver.PlayAgain">
+
+    <TextView
+        android:id="@+id/wrongAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/wrongans"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/play_again"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:clickable="true"/>
+
+</LinearLayout>
+

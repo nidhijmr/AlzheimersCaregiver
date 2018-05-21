@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F0E8F0"
+    tools:context="com.example.sindhu.alzheimerscaregiver.AddressList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/office_address"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_business_center_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Office"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/bank_address"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/circlebackgroundgreen"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_attach_money_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Bank"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editOffice"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="#10000000"
+            android:gravity="center"
+            android:text="edit"
+            android:textAllCaps="false"
+            android:textColor="#048dc9"
+            android:textStyle="italic">
+
+        </Button>
+
+        <Button
+            android:id="@+id/editBank"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="edit"
+            android:textColor="#048dc9"
+            android:background="#10000000"
+            android:textAllCaps="false"
+            android:textStyle="italic">
+
+        </Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/market_address"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/circlebackgroundyellow"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_local_mall_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Market"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/home_address"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/circlebackgroundpink"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_home_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Home"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editMarket"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="edit"
+            android:textAllCaps="false"
+            android:textColor="#048dc9"
+            android:background="#10000000"
+            android:textStyle="italic">
+
+        </Button>
+
+        <Button
+            android:id="@+id/editHome"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="edit"
+            android:textAllCaps="false"
+            android:textColor="#048dc9"
+            android:background="#10000000"
+            android:textStyle="italic">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
+
+

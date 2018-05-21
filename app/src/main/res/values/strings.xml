@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Companion</string>
+    <string name="time">15</string>
+    <string name="question">Question</string>
+    <string name="timeup">Time\'s Up!!</string>
+    <string name="play_again">Play again</string>
+    <string name="wrongans">Sorry!!! Wrong Answer</string>
+    <string name="correct">Correct</string>
+    <string name="next">Next</string>
+    <string name="Quit">Quit</string>
+    <string name="action_settings">Settings</string>
+</resources>

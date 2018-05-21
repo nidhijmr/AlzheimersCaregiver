@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#431b43</color>
+    <color name="colorPrimaryDark">#5D1049</color>
+    <color name="backgroundcolor">#f0e8f0</color>
+    <color name="lightgray">#EDEDED</color>
+    <color name="deeppurple">#7C4DFF</color>
+    <color name="yellow">#FFB300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#757171</color>
+    <color name="orange">#EF6C00</color>
+    <color name="black">#000000</color>
+    <color name="solidcircle">#F5F5F5</color>
+    <color name="circleborder">#EEEEEE</color>
+    <color name="gradend">#f0e8f0</color>
+    <color name="gradstart">#f0e8f0</color>
+    <color name="headings">#f0e8f0</color>
+
+</resources>

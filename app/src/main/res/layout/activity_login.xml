@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E8F0"
+    tools:context="com.example.sindhu.alzheimerscaregiver.LoginActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/brainfinal"/>
+
+
+     <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+         android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+         android:paddingLeft="0dp"
+         android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textColorHint="#999" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LogIn"
+        android:textColor="#FFF"
+        android:background="#5D1049"
+        android:layout_gravity="center_horizontal"
+        android:onClick="login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="forgotPassword"
+            android:text="forgot password?"
+            android:textAllCaps="false"
+            android:paddingTop="40dp"
+            android:paddingRight="40dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic" />
+
+        <Button
+        android:id="@+id/button_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new user"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:paddingTop="40dp"
+            android:textAllCaps="false"
+            android:onClick="doSignup" />
+
+    </LinearLayout>-->
+</LinearLayout>
+

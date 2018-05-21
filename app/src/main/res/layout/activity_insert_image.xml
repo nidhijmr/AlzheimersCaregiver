@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#F0E8F0"
+    tools:context="com.example.sindhu.alzheimerscaregiver.InsertImageActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_toStartOf="@+id/editText4"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:text="Enter Name" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="36dp"
+        android:layout_toStartOf="@+id/editText4"
+        android:textColor="@color/colorPrimary"
+        android:padding="14dp"
+        android:textSize="20dp"
+        android:text="Enter Relationship" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView4"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_choosePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="Choose Picture"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>

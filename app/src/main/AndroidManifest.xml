@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sindhu.alzheimerscaregiver">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <permission android:name="android.permission.CALL_PRIVILEGED"
+        android:protectionLevel="signature|privileged" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/brain"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/brain"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDgx-_4A-kf-0oYioyIOKYON5ErmrYzxew" />
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".AddressList" />
+        <activity android:name=".PhotoAlbum" />
+        <activity android:name=".InsertImageActivity" />
+        <activity android:name=".GetImageActivity" />
+        <activity android:name=".CaretakerDashboard" />
+        <activity android:name=".QuizMainActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".GameWon" />
+        <activity android:name=".PlayAgain" />
+        <activity android:name=".TimeUp" />
+        <activity
+            android:name=".ProfilePage"
+            android:theme="@style/generalnotitle" />
+        <activity android:name=".CaretakerProfilePage"
+            android:theme="@style/generalnotitle"/>
+        <activity android:name=".GoogleMapsActivity" />
+        <activity android:name=".CurrentLocationActivity" />
+        <activity
+            android:name=".InsertQuestionsActivity"
+            android:theme="@style/generalnotitle" />
+        <activity android:name=".MapsActivity" />
+
+        <service
+            android:name=".LocationTracker"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".TestLocation" />
+        <activity
+            android:name=".DailyActivity"
+            android:theme="@style/generalnotitle"></activity>
+        <activity android:name=".NewTaskActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".FallDetection"/>
+        <activity android:name=".EmergencyCall" />
+        <activity android:name=".InsertContactsDynamo" />
+        <activity android:name=".PillSchedule"/>
+        <activity android:name=".ResetPasswordActivity"></activity>
+
+        <receiver
+            android:name=".InsertContactsDynamo"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service android:name=".TimerService" />
+
+
+    </application>
+
+</manifest>

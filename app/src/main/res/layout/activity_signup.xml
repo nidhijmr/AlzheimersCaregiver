@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#F0E8F0"
+    tools:context="com.example.sindhu.alzheimerscaregiver.SignupActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="3dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:paddingLeft="0dp"
+        android:textColorHint="#999"
+       />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailid"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="3dp"
+        android:textColorHint="#999"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="3dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="0dp"
+        android:textColor="#000"
+        android:textColorHint="#999"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="3dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:hint="Phone Number"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="3dp"
+        android:textColorHint="#999"/>
+
+    <RadioGroup
+        android:id="@+id/radioRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioCaretaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caretaker" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Create Account"
+        android:id="@+id/button_createAccount"
+        android:textColor="#FFF"
+        android:background="#5D1049"
+        android:layout_gravity="center_horizontal"
+        android:onClick="doSignup"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Already a member? Login"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="12dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFF"
+        android:id="@+id/button_login"
+        android:background="#5D1049"
+        android:layout_gravity="center_horizontal"
+        android:onClick="doSignup"
+        />
+
+</LinearLayout>
+

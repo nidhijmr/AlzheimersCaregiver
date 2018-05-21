@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you alright?"
+
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:textSize="36dp"/>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:background="@color/colorPrimary"
+        android:onClick="doStop"
+        android:text="YES"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>

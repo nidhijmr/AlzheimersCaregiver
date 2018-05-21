@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E8F0"
+    tools:context="com.example.sindhu.alzheimerscaregiver.GameWon">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/congragulations"/>
+
+    <TextView
+        android:id="@+id/coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Congragulations"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/playagainbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/quitbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:textColor="#FFF"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        />
+</LinearLayout>
+
